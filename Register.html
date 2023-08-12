@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image: linear-gradient(to right, #FFA62F, #E4287C);
+            }
+            table{
+                background-color: rgba(0,0,0,0.6);
+                height:500;
+                width:700;
+                position:absolute;
+                margin:auto;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                text-align: center;
+                padding:5px;
+                color:whitesmoke;
+                font-family:Californian FB;
+            }
+            input{
+                background-color: rgba(0,0,0,1);
+                color:white;
+                font-size:20;
+                width:80%;
+                font-family:Californian FB;
+                padding:3px;
+            }
+            .log{
+                background-color: purple;
+                color:whitesmoke;
+                padding: 15px 30px;
+                text-align:center;
+                font-size:30;
+                font-family:Californian FB;
+                border:none;
+                box-shadow: 4px 4px 25px black;
+                text-decoration:none;
+            }
+            .log:hover{
+                background-color: whitesmoke;
+                color:purple
+                
+            }
+            .SU{
+                text-decoration:none;
+                color:lightseagreen;
+            }
+            .SU:hover{
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <form action="Reg-Success.html" method="get">
+            <table>
+                <tr>
+                    <td>
+                        <font size="50">
+                            <b>REGISTER</b>
+                        </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="name" maxlength="50" placeholder="Enter Full Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="email" name="mail" maxlength="50" placeholder="Enter Email ID" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="no" minlength="10" maxlength="10" placeholder="Enter Mobile No." required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" name="pwd" maxlength="6" placeholder="Enter Password" required>
+                        <br>
+                        <font size="3" color="red">Max: 6 characters</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b><input type="submit" value="REGISTER" class="log"></b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Already a member?  <b><font size="5"><a class="SU" href="JoinUs.html">LOGIN</a></font></b>
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </center>
+    </body>
+</html>

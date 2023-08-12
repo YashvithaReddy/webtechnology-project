@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+            img{
+                border-radius:5px;
+            }
+            .bg-img{
+                filter: blur(3px); 
+                height: 100%;
+                width:100%;
+                display:block;
+                position:fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                z-index:1;
+                margin:auto;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+            }
+            .logo{
+                width:300;
+                height:200;
+                display:block;
+                position:absolute;
+                margin:auto;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index:2;
+                box-shadow: 4px 4px 50px black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bg-img">
+            <img src="BgImg.jpg" height="300" width="100%">
+        </div>
+        <div class="logo">
+            <img src="Logo.jpeg" alt="PICC_Logo" height="200" width="300">
+        </div>
+    </body>
+</html>
